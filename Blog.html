@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="Blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/c17b3d94da.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+     <section>
+
+        <div class="nav-bar">
+            <div class="nav-logo">
+              <h2>SPLASH</h2>
+            </div>
+            <nav>
+              <a onclick="document.location='index.html'">Home</a>
+              <a onclick="document.location='Shop.html'">Shop</a>
+              <a href="" style=" border-bottom:3px solid #000000;">Blog</a>
+              <a onclick="document.location='About.html'">About</a>
+              <a  onclick="document.location='Contact.html'">Contact</a>
+             
+              <div onclick="mouseOver()" class="hamburger">
+                <span id="yes1"></span>
+                <span id="yes2"></span>
+                <span id="yes3"></span>
+              </div>
+             
+            </nav>
+            
+            <div class="nav-content">
+              <a onclick="document.location='E-com.html'">Home</a>
+              <a onclick="document.location='Shop.html'">Shop</a>
+              <a onclick="document.location='Blog.html'"style=" border-bottom:3px solid #ffffff; width:40px">Blog</a>
+              <a onclick="document.location='About.html'">About</a>
+              <a onclick="document.location='Contact.html'">Contact</a>
+            </div>
+            <div class="nav-right">
+              <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+              <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+            </div>
+          </div>
+          <section class="Arrivals">
+            <div class="bg">
+             <h1>Find Your Personal Style</h1>
+             <p>Keeping up with the latest fashion trends isn’t the key to looking great. It’s staying true to your personal style.</p>
+             <p id="style">Personal style is all about playing with fashion to discover which clothes make you feel your best. Start with bold accessories and pops of color and then work on mixing and matching prints and textures.</p>
+             <button class="sd" id="ed">Read full article</button>
+            </div>
+           </section>
+
+           <h1 class="articles">Trending articles</h1>
+              
+           <div class="whole">
+
+            <div class="collection-img1">
+             <img src="image 7.png" >
+             <div class="dress">
+              <span class="price-info">
+                <p>July 2nd,2020
+                </p>
+                <p><b>10 ways to style a Jacket</b></p>
+                <p class="info">When helen reached out to us on becomimg a personal shopper in the fashion world and making our brand the centre of shopping, We literally laughed at the whole idea of it but after few days......<b>Read more</b></p>
+              </span>
+            </div>
+          </div>
+
+          <div class="collection-img2">
+            <img src="image 7 (1).png">
+ 
+            <div class="dress">
+             <span class="price-info">
+              <p>May 4th,2020
+              </p>
+              <p><b>Summer dresses 2023</b></p>
+              <p class="info">After a year of wearing splash-mainly grey -outfits,an injection of explosives colours is exactly what i want. A vibrannt stripe gown,candy_inspired necklace and beaded green sandals is enoug,......<b>Read more.  </b> </p>
+             </span>
+            </div>
+          </div>
+          <div class="whole">
+
+            <div class="collection-img1">
+             <img src="image 8.png" class="de" id="de">
+             <div class="dress">
+              <span class="price-info" id="inf">
+                <p class="dec">December 1st,2021
+                </p>
+                <p class="dec"><b>Black Women Fashion</b></p>
+                <p class="info dec">After a year of wearing splash-mainly grey -outfits,an injection of explosives colours is exactly what i want. A vibrannt stripe gown,candy_inspired necklace and beaded green sandals is enoug,......Read more. <b>Read more</b></b>  </p>
+              </span>
+            </div>
+          </div>
+          </div>
+           </div>
+           
+
+           <footer>
+            <div class="pri">
+            <ul class="about">
+              <h1>About</h1>
+              <li>About Us</li>
+              <li>Career</li>
+              <li>Contact Us</li>
+              <li>Track Your Orders</li>
+              <li>Customer Service </li>
+              <li>Returns & Exchanges</li>
+            </ul>
+            <ul>
+              <h1>Privacy</h1>
+              <li>Privacy Policy</li>
+              <li>Terms & Condition</li>
+              <li>Delivery Information</li>
+              <li>FAQ</li>
+            </ul>
+            <ul>
+              <h1>Shops</h1>
+              <li>Dressmeoutlet.com, Nigeria </li>
+              <li>Lauras Elegance, Dubai</li>
+              <li>The Brand, UK</li>
+              
+            </ul>
+          </div>
+          <hr style="margin-bottom:40px;margin-top:90px;background-color:rgba(236, 236, 236, 0.626)">
+          <div class="splash">
+            <h1>Splash</h1>
+            <p>© Splashthebrand.com</p>
+            <div class="icons">
+             <img src="Vector.png">
+             <img src="Vector (1).png">
+             <img src="Vector (2).png">
+             <img src="Vector (3).png">
+
+          </div>
+          </div>
+           </footer>
+                
+             
+
+     </section>
+    
+      
+     <script>
+      let dropBtn= document.querySelector('.hamburger');
+      let dropContent= document.querySelector('.nav-content');
+      
+      function mouseOver(){
+          // document.querySelector('.hamburger')
+          // classList.toggle('show')
+          // dropBtn.style
+          dropContent.classList.toggle('show');
+          console.log('working');
+      }
+      btn.addEventListener("click",e=>{
+          if (yes3.style.display === '') {
+                  hamburger.style.display="flex"
+          yes3.style.display="none"
+          yes1.style.transform="rotate(45deg)"
+          yes2.style.transform="rotate(-45deg)"
+          yes2.style.marginTop="-8px"
+          } else {
+            hamburger.style.display="none"
+          yes3.style.display=""
+          yes1.style.transform="rotate(0deg)"
+          yes2.style.transform="rotate(-0deg)"
+          yes2.style.marginTop="-0px"
+          }
+      
+        })
+      
+      
+          </script>
+</body>
+</html>
